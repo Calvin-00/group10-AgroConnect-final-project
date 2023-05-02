@@ -1,0 +1,48 @@
+﻿@page
+@model AgroConnect.Views.HomeController1.signModel
+@{
+}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TODO supply a title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="~/credentials/css/signup.css">
+</head>
+
+
+<div class="container">
+    <div class="avatar">
+        <img src="~/credentials/images/userpic.png" />
+    </div>
+    <h1 class="label">SignUp</h1>
+
+    <body>
+        <form class="login-form" method="post" name="form" onsubmit="return validated()">
+            <div class="font">Username</div>
+            <input autocomplete="off" type="text" name="username">
+            <div class="error" id="username_error"></div>
+
+            <div class="font">Password</div>
+            <input autocomplete="off" type="password" name="password">
+            <div class="error" id="password_error"></div>
+
+            <div class="font font2 font3">Confirm Password</div>
+            <input autocomplete="off" type="password" name="password2">
+            <div class="error" id="password2_error"></div>
+
+            <button type="submit"><a href="Register.html"></a>SIGN UP</button>
+            <a href="~/HomeController1/Login">Back to Login!</a>
+        </form>
+
+
+
+        <script src="~/credentials/js/signup.js"></script>
+
+    </body>
+</div>
+
+</html>

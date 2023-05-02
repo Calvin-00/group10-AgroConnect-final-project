@@ -1,0 +1,135 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\Credentials\css\login.css" />
+    <Content Remove="wwwroot\Credentials\css\signup.css" />
+    <Content Remove="wwwroot\Credentials\js\login.js" />
+    <Content Remove="wwwroot\Credentials\js\signup.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Credentials\css\login.css" />
+    <None Include="wwwroot\Credentials\css\signup.css" />
+    <None Include="wwwroot\Credentials\images\indexpic.jpg" />
+    <None Include="wwwroot\Credentials\images\logpic.jpg" />
+    <None Include="wwwroot\Credentials\images\userpic.png" />
+    <None Include="wwwroot\Credentials\js\login.js" />
+    <None Include="wwwroot\Credentials\js\signup.js" />
+    <None Include="wwwroot\Themes\css\all.css" />
+    <None Include="wwwroot\Themes\css\animate.css" />
+    <None Include="wwwroot\Themes\css\baguetteBox.min.css" />
+    <None Include="wwwroot\Themes\css\bootsnav.css" />
+    <None Include="wwwroot\Themes\css\bootstrap-select.css" />
+    <None Include="wwwroot\Themes\css\bootstrap.min.css" />
+    <None Include="wwwroot\Themes\css\carousel-ticker.css" />
+    <None Include="wwwroot\Themes\css\code_animate.css" />
+    <None Include="wwwroot\Themes\css\custom.css" />
+    <None Include="wwwroot\Themes\css\jquery-ui.css" />
+    <None Include="wwwroot\Themes\css\owl.carousel.min.css" />
+    <None Include="wwwroot\Themes\css\responsive.css" />
+    <None Include="wwwroot\Themes\css\style.css" />
+    <None Include="wwwroot\Themes\css\superslides.css" />
+    <None Include="wwwroot\Themes\images\about-img.jpg" />
+    <None Include="wwwroot\Themes\images\add-img-01.jpg" />
+    <None Include="wwwroot\Themes\images\add-img-02.jpg" />
+    <None Include="wwwroot\Themes\images\all-bg-title.jpg" />
+    <None Include="wwwroot\Themes\images\apple-touch-icon.png" />
+    <None Include="wwwroot\Themes\images\banner-01.jpg" />
+    <None Include="wwwroot\Themes\images\banner-02.jpg" />
+    <None Include="wwwroot\Themes\images\banner-03.jpg" />
+    <None Include="wwwroot\Themes\images\big-img-01.jpg" />
+    <None Include="wwwroot\Themes\images\big-img-02.jpg" />
+    <None Include="wwwroot\Themes\images\big-img-03.jpg" />
+    <None Include="wwwroot\Themes\images\blog-img-01.jpg" />
+    <None Include="wwwroot\Themes\images\blog-img-02.jpg" />
+    <None Include="wwwroot\Themes\images\blog-img.jpg" />
+    <None Include="wwwroot\Themes\images\categories_img_01.jpg" />
+    <None Include="wwwroot\Themes\images\categories_img_02.jpg" />
+    <None Include="wwwroot\Themes\images\categories_img_03.jpg" />
+    <None Include="wwwroot\Themes\images\contact-bg.jpg" />
+    <None Include="wwwroot\Themes\images\favicon.ico" />
+    <None Include="wwwroot\Themes\images\gallery-img-01.jpg" />
+    <None Include="wwwroot\Themes\images\gallery-img-02.jpg" />
+    <None Include="wwwroot\Themes\images\gallery-img-03.jpg" />
+    <None Include="wwwroot\Themes\images\gallery-img-04.jpg" />
+    <None Include="wwwroot\Themes\images\gallery-img-05.jpg" />
+    <None Include="wwwroot\Themes\images\gallery-img-06.jpg" />
+    <None Include="wwwroot\Themes\images\gallery-img-07.jpg" />
+    <None Include="wwwroot\Themes\images\gallery-img-08.jpg" />
+    <None Include="wwwroot\Themes\images\gallery-img-09.jpg" />
+    <None Include="wwwroot\Themes\images\gallery-img-10.jpg" />
+    <None Include="wwwroot\Themes\images\gallery-img-11.jpg" />
+    <None Include="wwwroot\Themes\images\gallery-img-12.jpg" />
+    <None Include="wwwroot\Themes\images\img-1.jpg" />
+    <None Include="wwwroot\Themes\images\img-2.jpg" />
+    <None Include="wwwroot\Themes\images\img-3.jpg" />
+    <None Include="wwwroot\Themes\images\img-pro-01.jpg" />
+    <None Include="wwwroot\Themes\images\img-pro-02.jpg" />
+    <None Include="wwwroot\Themes\images\img-pro-03.jpg" />
+    <None Include="wwwroot\Themes\images\img-pro-04.jpg" />
+    <None Include="wwwroot\Themes\images\ins-bg.jpg" />
+    <None Include="wwwroot\Themes\images\instagram-img-01.jpg" />
+    <None Include="wwwroot\Themes\images\instagram-img-02.jpg" />
+    <None Include="wwwroot\Themes\images\instagram-img-03.jpg" />
+    <None Include="wwwroot\Themes\images\instagram-img-04.jpg" />
+    <None Include="wwwroot\Themes\images\instagram-img-05.jpg" />
+    <None Include="wwwroot\Themes\images\instagram-img-06.jpg" />
+    <None Include="wwwroot\Themes\images\instagram-img-07.jpg" />
+    <None Include="wwwroot\Themes\images\instagram-img-08.jpg" />
+    <None Include="wwwroot\Themes\images\instagram-img-09.jpg" />
+    <None Include="wwwroot\Themes\images\logo.png" />
+    <None Include="wwwroot\Themes\images\payment-icon\1.png" />
+    <None Include="wwwroot\Themes\images\payment-icon\2.png" />
+    <None Include="wwwroot\Themes\images\payment-icon\3.png" />
+    <None Include="wwwroot\Themes\images\payment-icon\4.png" />
+    <None Include="wwwroot\Themes\images\payment-icon\5.png" />
+    <None Include="wwwroot\Themes\images\payment-icon\6.png" />
+    <None Include="wwwroot\Themes\images\payment-icon\7.png" />
+    <None Include="wwwroot\Themes\images\smp-img-01.jpg" />
+    <None Include="wwwroot\Themes\images\smp-img-02.jpg" />
+    <None Include="wwwroot\Themes\images\smp-img-03.jpg" />
+    <None Include="wwwroot\Themes\js\baguetteBox.min.js" />
+    <None Include="wwwroot\Themes\js\bootsnav.js" />
+    <None Include="wwwroot\Themes\js\bootstrap-select.js" />
+    <None Include="wwwroot\Themes\js\bootstrap.min.js" />
+    <None Include="wwwroot\Themes\js\contact-form-script.js" />
+    <None Include="wwwroot\Themes\js\custom.js" />
+    <None Include="wwwroot\Themes\js\form-validator.min.js" />
+    <None Include="wwwroot\Themes\js\images-loded.min.js" />
+    <None Include="wwwroot\Themes\js\inewsticker.js" />
+    <None Include="wwwroot\Themes\js\isotope.min.js" />
+    <None Include="wwwroot\Themes\js\jquery-3.2.1.min.js" />
+    <None Include="wwwroot\Themes\js\jquery-ui.js" />
+    <None Include="wwwroot\Themes\js\jquery.nicescroll.min.js" />
+    <None Include="wwwroot\Themes\js\jquery.superslides.min.js" />
+    <None Include="wwwroot\Themes\js\owl.carousel.min.js" />
+    <None Include="wwwroot\Themes\js\popper.min.js" />
+    <None Include="wwwroot\Themes\php\form-process.php" />
+    <None Include="wwwroot\Themes\webfonts\fa-brands-400.eot" />
+    <None Include="wwwroot\Themes\webfonts\fa-brands-400.svg" />
+    <None Include="wwwroot\Themes\webfonts\fa-brands-400.ttf" />
+    <None Include="wwwroot\Themes\webfonts\fa-brands-400.woff" />
+    <None Include="wwwroot\Themes\webfonts\fa-brands-400.woff2" />
+    <None Include="wwwroot\Themes\webfonts\fa-regular-400.eot" />
+    <None Include="wwwroot\Themes\webfonts\fa-regular-400.svg" />
+    <None Include="wwwroot\Themes\webfonts\fa-regular-400.ttf" />
+    <None Include="wwwroot\Themes\webfonts\fa-regular-400.woff" />
+    <None Include="wwwroot\Themes\webfonts\fa-regular-400.woff2" />
+    <None Include="wwwroot\Themes\webfonts\fa-solid-900.eot" />
+    <None Include="wwwroot\Themes\webfonts\fa-solid-900.svg" />
+    <None Include="wwwroot\Themes\webfonts\fa-solid-900.ttf" />
+    <None Include="wwwroot\Themes\webfonts\fa-solid-900.woff" />
+    <None Include="wwwroot\Themes\webfonts\fa-solid-900.woff2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.13" />
+  </ItemGroup>
+
+</Project>
